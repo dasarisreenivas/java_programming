@@ -47,7 +47,7 @@ public class bubble_sort {
             for(int m=0;m<j;m++){
                 if(arr[m]>arr[m+1]){
                     int temp = arr[m];
-                    arr[m]=arr[m+1];                    //time complexity for this code is O(n); worst case 
+                    arr[m]=arr[m+1];                    //time complexity for this code is O(n); best case
                     arr[m+1]=temp;
                     didswap = 1;
                 }
