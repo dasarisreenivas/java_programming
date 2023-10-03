@@ -38,3 +38,12 @@ public class union_of_two_arrays_optimal_approach {
 
     }
 }
+// we can add the elements to the another array from thr union
+/*
+int u[] = new int[temp.size];
+for(int i =0;i<union.size();i++){
+u[i]=union.get(i);
+}
+for(int i =0;i<u.length;i++){
+System.out.print(u[i]+" ");
+*/
