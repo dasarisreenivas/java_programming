@@ -19,6 +19,7 @@ public class remove_duplicates_in_array_optimal_force {
                 i++;
             }
         }
-        System.out.println(i+1);
+       for(int k=0;k<arr.length;k++){
+           System.out.println(arr[k]);
     }
 } 
