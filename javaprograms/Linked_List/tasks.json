@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile and run",
+            "type": "shell",
+            "command": "shell",
+            "args": [
+                "/C",
+                "javac ${file} && type input.txt | java ${fileBasenameNoExtension} > output.txt"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
